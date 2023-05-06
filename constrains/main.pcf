@@ -1,0 +1,7 @@
+# general
+set_io clk_ref 35 # IOT_46B
+set_io cs1to4 25 # IOT_36B; shared over SPI 1 to 4
+
+set_io in_1 26
+set_io in_2 27
+set_io out_1 28

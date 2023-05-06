@@ -1,0 +1,6 @@
+[libraries]
+
+work.work = [
+  'src/**/*.vhd',
+  'package/**/*vhd'
+]
