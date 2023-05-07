@@ -1,0 +1,2 @@
+#!/usr/bin/sh
+make view VIEW=$1

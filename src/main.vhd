@@ -18,16 +18,9 @@ end main;
 
 architecture arch of main is
     signal cs : std_logic := '1';
+    signal data: vector_8;
 begin
-    out_1 <= in_1 and in_2;
 
-    PDM1_I3C : entity work.i3c
-    generic map (
-        OUTPUT_PAD => true
-    )
-    port map (
-       pad => cs1to4,
-        logic_in => cs,
-        logic_out => open
-    );
+    out_1 <= data(7);
+
 end arch;
